@@ -7,8 +7,4 @@ terraform {
   }
 }
 
-provider "kubernetes" {
-  cluster_ca_certificate = local.cluster_ca_certificate
-  host                   = "https://kubernetes.default.svc"
-  token                  = local.token
-}
+provider "kubernetes" {}
