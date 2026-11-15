@@ -3,7 +3,7 @@
 
 resource "kubernetes_config_map_v1" "regional" {
   data = {
-    workspace = "floor-test-1794770246"
+    workspace = "floor-test-1794771162"
   }
 
   metadata {
